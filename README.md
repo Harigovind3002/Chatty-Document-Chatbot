@@ -1,5 +1,5 @@
-Project Name
-ChattyBot - Your Personal Document Assistant
+#Project Name
+#ChattyBot - Your Personal Document Assistant
 
 Overview
 ChattyBot is a FastAPI-based application that serves as a personal document assistant. It allows users to upload PDF files, ask questions based on the content of the PDF, and receive responses from ChattyBot.
