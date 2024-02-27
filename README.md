@@ -7,7 +7,7 @@ Getting Started
 To run ChattyBot locally, follow these steps:
 
 Clone the repository:
-git clone https://github.com/your-username/chattybot.git
+git clone https://github.com/Harigovind3002/Cydratech-Chatty-Document-Chatbot.git
 
 Navigate to the project directory:
 cd chattybot
