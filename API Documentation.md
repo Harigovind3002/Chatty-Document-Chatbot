@@ -8,7 +8,20 @@ The base URL for all endpoints is `http://localhost:8000` for local development.
 
 ## Endpoints
 
-### 1. Upload PDF File
+### 1. Loading Homepage
+
+- **Endpoint:** `/`
+- **Method:** `GET`
+- **Description:** This endpoint serves the home page of the ChattyBot application.
+- **Request Payload:**
+  -`request` (Type: `Request`): FastAPI Request object.
+- **Example using curl:**
+  ```bash
+  curl -X GET http://your-api-base-url/
+- **Response:**
+  - HTMLResponse: HTML content for the home page.
+  
+### 2. Upload PDF File
 
 - **Endpoint:** `/upload`
 - **Method:** `POST`
@@ -24,7 +37,7 @@ The base URL for all endpoints is `http://localhost:8000` for local development.
   "pdf_text": "Parsed document successfully."
   }
 
-### 2. Ask Question
+### 3. Ask Question
 
 - **Endpoint:** `/ask`
 - **Method:** `POST`
