@@ -10,7 +10,7 @@ Clone the repository:
 git clone https://github.com/Harigovind3002/Cydratech-Chatty-Document-Chatbot.git
 
 Navigate to the project directory:
-cd chattybot
+cd Cydratech-Chatty-Document-Chatbot
 
 Install the required dependencies:
 pip install -r requirements.txt
