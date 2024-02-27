@@ -36,5 +36,4 @@ curl -X POST -F "file=@path/to/your/file.pdf" http://localhost:8000/upload
 Asking a Question
 
 Send a POST request to /ask with a JSON payload containing the question:
-curl -X POST -H "Content-Type: application/json" -d '{"question": "What is FastAPI?"}' http://localhost:8000/ask
-Check the Swagger documentation at http://localhost:8000/docs for more details.
+curl -X POST -H "Content-Type: application/json" -d '{"question": " "}' http://localhost:8000/ask
