@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChattyBot</title>
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ChattyBot</h1>
+            <p>Your Personal Document Assistant</p>
+        </div>
+        <div class="chat-container">
+            <div id="chat-display"></div>
+            <div id="upload-section" style="display: flex; flex-wrap: wrap; margin-bottom: 10px;">
+                <input type="file" id="pdf-upload" accept=".pdf" required>
+            </div>
+            <form id="chat-form">
+                <div style="display: flex; justify-content: center; height: 50px;">
+                    <input type="text" id="message-input" placeholder="Type your message..." onkeydown=handleEnter(event)>
+                    <button type="button" id="upload-button">Upload PDF</button>
+                    <button type="button" id="send-button">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+
+</html>
